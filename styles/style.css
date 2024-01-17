@@ -1,0 +1,156 @@
+ *{
+   color: #FFFFFF ;
+   font-family: Mulish;
+   
+} 
+.container{
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    width: 1170px;
+    height: 500px;
+    position: relative;
+    margin:120px auto;
+    border-radius: 16px;  
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    
+}
+.banner-container{ 
+    position: relative;
+    text-align: center; 
+    padding: 100px 150px ;
+}
+.banner-title{ 
+    color: rgb(0, 0, 0); 
+    font-size: 60px; 
+    font-weight: 800;
+    margin-bottom: 0px;  
+}
+
+.banner-description{  
+    font-size: 16px;
+    width: 600px; 
+    font-weight: 400;
+    line-height: 26px;  
+    margin-left: 150px;
+    margin-top: 20px;
+     
+}
+svg{
+    margin-left: -40px; 
+}
+ 
+.input-section{ 
+    background: rgba(255, 255, 255, 0.30);
+    width: 700px;
+    height: 52px;
+    margin-left: 70px;
+    
+}
+.input-section input{  
+    border-radius: 8px; 
+    width: 150px;
+    height: 30px;  
+    margin-top: 10px; 
+    border: none;
+}
+ 
+/* list section */
+
+.list-container{
+    display: flex;
+    margin: 120px 160px ;
+} 
+.list-title{
+    color: #131318;  
+    font-size: 40px; 
+    font-weight: 800;
+    margin-top: -10px; 
+}
+.list-items{
+    padding-right: 100px;
+}
+.list-description{  
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px; 
+    font-weight: 400px;
+    line-height: 26px; 
+}
+.list-items li{
+    color: rgba(19, 19, 24, 0.70); 
+    font-size: 16px; 
+    font-weight: 400;
+    line-height: 36px;  
+}
+.list-btn{
+    width: 104px;
+    height: 32px; 
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    /* margin-top: 50px; */
+}
+
+img{
+   width: 550px;
+   height: 500px;
+   border-radius: 16px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+/* place section */
+
+.place-container{
+    margin: 120px auto;
+}
+.place-img-container{
+    gap: 20px;
+    
+}
+.place-img-1{
+    display: flex;
+    gap: 20px;
+}
+
+.place-img-2{
+    display: flex;
+    gap: 20px;
+}
+.place-img-3{
+    display: flex;
+    gap: 20px;
+}
+
+@media screen and (max-width:500px) {
+
+    .container{
+        flex-direction: column;
+        width: 335px;
+        height: 483px; 
+        margin: 0px;
+        padding: 0px;
+        margin-bottom: 0px;
+    }
+    .banner-container{
+        flex-direction: column;
+        text-align: none;
+        padding: 0px;
+    }
+    .banner-description{
+        width: 300px;
+        margin: 0px;
+    }
+    .input-section{
+        flex-direction: column;
+        width: 300px;
+        margin: 0px;
+    }
+    .list-container{
+        flex-direction: column;
+        margin: 0px;
+        padding : 0px ; 
+    }
+    img{
+        width: 335px;
+        height: 342px; 
+    }
+
+}
